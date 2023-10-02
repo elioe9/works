@@ -27,7 +27,7 @@ class Statistics:
         mean = Statistics.mean(data)
         squared_diffs = [(x - mean) ** 2 for x in data]
         variance = sum(squared_diffs) / len(data)
-        return float(variance ** 0.5)
+        return round(variance ** 0.5, 2)
     
 
 
