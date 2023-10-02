@@ -3,7 +3,7 @@ ages = [31, 26, 34, 37, 27, 26, 32, 32, 26, 27, 27, 24, 32, 33, 27, 25, 26, 38, 
 class Statistics:
     def mean( data):
         #the mean
-         return sum(data) / len(data)
+         return round(sum(data) / len(data))
         
        
     def median(data):
